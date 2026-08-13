@@ -1,0 +1,5 @@
+# Build / optional helper packages.
+# The core application is otherwise primarily Python standard library + Tkinter.
+pyinstaller
+tkinterdnd2
+send2trash
