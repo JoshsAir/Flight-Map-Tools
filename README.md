@@ -18,6 +18,29 @@ Maintained by **Josh's Air** on YouTube **[@joshthebuilder247](https://www.youtu
 
 The program understands the telemetry patterns it was built around for Betaflight, ArduPilot and INAV-style EdgeTX/CRSF logs. It also handles missing GPS data, satellite-count track breaks, duplicate telemetry points, relative/absolute altitude cases, RSSI diversity data, privacy trimming, and optional 4-satellite track inclusion with warnings.
 
+## Screenshots
+
+### Sample 2D HTML map
+
+![Sample 2D HTML export](screenshots/sample-2d-html-export.png)
+
+### 2D map export interface
+
+![2D HTML export tab](screenshots/2d-html-export-tab-interface.png)
+
+### Sample 3D KMZ map in Google Earth
+
+![Sample 3D KMZ export in Google Earth](screenshots/sample-3d-kmz-export-google-earth.png)
+
+### 3D KMZ export interface
+
+![3D KMZ export tab](screenshots/3d-kmz-export-tab-interface.png)
+
+### All-flights summary
+
+![All-flights summary tab](screenshots/all-flights-summary-tab-interface.png)
+
+
 ## Download for Windows
 
 1. Open the repository's **Releases** section.
