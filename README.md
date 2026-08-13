@@ -2,7 +2,7 @@
 
 A desktop FPV telemetry toolkit for working with **EdgeTX / CRSF CSV flight logs**. It can turn telemetry logs into interactive 2D maps and analysis reports, enrich logs for video overlays, summarize many flights, and create 3D KMZ tracks for Google Earth.
 
-Maintained by **Josh's Air** on YouTube (`@joshthebuilder247`).
+Maintained by **Josh's Air** on YouTube **[@joshthebuilder247](https://www.youtube.com/@joshthebuilder247)**.
 
 > **Windows users:** the easiest option is to download the latest compiled `.exe` from this repository's **Releases** section. No Python installation is needed for the compiled Windows build.
 
@@ -18,25 +18,12 @@ Maintained by **Josh's Air** on YouTube (`@joshthebuilder247`).
 
 The program understands the telemetry patterns it was built around for Betaflight, ArduPilot and INAV-style EdgeTX/CRSF logs. It also handles missing GPS data, satellite-count track breaks, duplicate telemetry points, relative/absolute altitude cases, RSSI diversity data, privacy trimming, and optional 4-satellite track inclusion with warnings.
 
-## Screenshots
-
-Screenshots make the project much easier to understand before someone downloads it. Good ones to add are:
-
-1. The main Flight Map Tools window showing the tabs.
-2. A normal 2D HTML flight-map output.
-3. A Flight Data Analysis HTML report with the map and timeline visible.
-4. A 3D KMZ track open in Google Earth.
-
-Put them in `docs/screenshots/`. See [`docs/screenshots/README.md`](docs/screenshots/README.md) for suggested filenames. Once images are added, this section can be replaced with normal Markdown image links.
-
 ## Download for Windows
 
 1. Open the repository's **Releases** section.
 2. Open the newest release, for example **v32**.
 3. Download `Flight_Map_Tools_v32.exe` from the release assets.
 4. Run the EXE.
-
-Windows may show a warning for an unsigned program downloaded from the internet. Only download release files from this repository and verify that the release was published by the repository owner.
 
 ## Run from Python source
 
