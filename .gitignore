@@ -1,0 +1,39 @@
+# Python / build output
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# OS/editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# User-specific Flight Map Tools settings
+fpv_flight_path_map_presets.json
+fpv_aircraft_grouping.json
+
+# Flight logs and generated outputs can contain private GPS/location data.
+# Keep personal data out of the public repository by default.
+*.csv
+*.gpx
+*.kmz
+*.kml
+*.html
+all_flights_summary.txt
+
+# Terrain databases can be large and should stay local.
+*.DAT
+*.dat
+*.HGT
+*.hgt
+
+# If you intentionally add sanitized examples later, put them under examples/
+# and force-add them after reviewing all location/privacy content.
