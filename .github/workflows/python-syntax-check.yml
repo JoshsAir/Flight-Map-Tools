@@ -1,0 +1,30 @@
+name: Python syntax check
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  syntax-check:
+    name: Check Flight Map Tools Python syntax
+    runs-on: windows-latest
+
+    steps:
+      - name: Download repository files
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Compile Python source
+        run: python -m py_compile Flight_Map_Tools_v32.py
