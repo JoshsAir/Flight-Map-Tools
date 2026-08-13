@@ -2,7 +2,7 @@
 
 A desktop FPV telemetry toolkit for working with **EdgeTX / CRSF CSV flight logs**. It can turn telemetry logs into interactive 2D maps and analysis reports, enrich logs for video overlays, summarize many flights, and create 3D KMZ tracks for Google Earth.
 
-Maintained by **Josh's Air** (`@joshthebuilder247`).
+Maintained by **Josh's Air** on YouTube (`@joshthebuilder247`).
 
 > **Windows users:** the easiest option is to download the latest compiled `.exe` from this repository's **Releases** section. No Python installation is needed for the compiled Windows build.
 
