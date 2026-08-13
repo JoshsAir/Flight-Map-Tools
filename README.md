@@ -113,7 +113,6 @@ The intended update flow is:
 5. Attach the compiled Windows EXE to that release.
 6. Add short release notes describing the changes.
 
-See **[RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)** for the repeatable checklist.
 
 ## License
 
